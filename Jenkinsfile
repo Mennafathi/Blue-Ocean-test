@@ -34,7 +34,6 @@ pipeline {
       steps {
         echo 'deploy'
         input(message: 'Do you want to deploy', ok: 'yes, i want')
-        sh 'date'
       }
     }
 
